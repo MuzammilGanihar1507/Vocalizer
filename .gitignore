@@ -1,0 +1,98 @@
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# PyInstaller
+# *.manifest
+# *.spec
+
+# --- Virtual Environment ---
+# Exclude the virtual environment directory 
+venv/
+.venv/
+env/
+ENV/
+my_gpu_env/
+my_project_env_*/ # Covers your specific named envs like my_project_env_py38
+
+# --- IDE / Editor Configuration ---
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- Project Specific: Vocalizer ---
+# Streamlit configuration/cache
+.streamlit/
+
+# Temporary files created during upload/processing
+# (Crucial to ignore, these are transient)
+.temp_audio/
+
+# Output directories for generated audio
+# (Generally recommended to ignore generated content)
+output_*/
+output_demucs/
+output_youtube/
+checking_gpu/
+# output_noise_reduced/  # Keep commented out as it's no longer used
+# output_loudness_normalized/ # Keep commented out as it's no longer used
+# Use output_*/ if you prefer a wildcard for all output dirs
+
+# Log files (if you add logging to files later)
+*.log
+logs/
+*.log.*
+
+# --- Secrets ---
+# Configuration files potentially containing secrets (API Keys, etc.)
+# Although not used currently, good practice to include for the future
+*.env
+.env*
+secrets.*
+credentials.*
+config.yaml # If you switch to YAML config containing secrets
+
+# --- Testing ---
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# --- Other ---
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints

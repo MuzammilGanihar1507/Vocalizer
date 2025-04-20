@@ -20,7 +20,9 @@ Welcome to Vocalizer! This easy-to-use tool helps you perform common audio tasks
 Before you can run Vocalizer, you need a couple of things installed on your computer:
 
 1.  **Python:** This project is built with Python. You'll need a compatible version installed. This project has been developed and tested with **Python 3.12.8**. If you have a different version, you might encounter issues. You can download Python from [python.org](https://www.python.org/).
-2.  **FFmpeg:** This is a background tool needed for processing audio and video files (especially for the YouTube downloader and sometimes other libraries).
+2.  **FFmpeg:** This is a required background tool needed for several features (like YouTube downloading). Installation varies by operating system.
+    *   ➡️ **Please follow the detailed [FFmpeg Installation Guide](INSTALL_FFMPEG.md) for instructions specific to your system.**
+    *   **OR** Download it yourself without the guide.            
     *   **Windows:** Download from [ffmpeg.org](https://ffmpeg.org/download.html#build-windows) and add it to your system's PATH (see instructions online).
     *   **macOS:** The easiest way is using Homebrew: `brew install ffmpeg`
     *   **Linux (Debian/Ubuntu):** `sudo apt update && sudo apt install ffmpeg`

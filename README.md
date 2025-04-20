@@ -33,7 +33,7 @@ Follow these steps to get Vocalizer running on your local machine:
 1.  **Get the Code:**
     *   **Option A (Git):** If you have Git installed, open your terminal or command prompt and run:
         ```bash
-        git clone https://github.com/MuzammilGanihar1507/Vocalizer 
+        git clone https://github.com/MuzammilGanihar1507/Vocalizer.git 
         cd Vocalizer # Or your project's folder name
         ```
     *   **Option B (Download ZIP):** Download the project files as a ZIP and extract them to a folder on your computer. Open your terminal/command prompt and navigate into that folder:

@@ -101,7 +101,7 @@ Follow these steps to get Vocalizer running on your local machine:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file (if you have one) or the [MIT License text](https://opensource.org/licenses/MIT) for details.
+This project is not yet licensed under the MIT License - see the [LICENSE](LICENSE) file or the [MIT License text](https://opensource.org/licenses/MIT) for details.
 
 ## 🙏 Acknowledgements
 

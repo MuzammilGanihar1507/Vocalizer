@@ -1,6 +1,5 @@
 # 🎧 Vocalizer: Your Simple Audio Processing Toolkit
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Welcome to Vocalizer! This easy-to-use tool helps you perform common audio tasks like downloading songs from YouTube, separating vocals from music, cleaning up background noise, and making audio levels consistent – all through a simple web interface.
 
@@ -99,9 +98,7 @@ Follow these steps to get Vocalizer running on your local machine:
 *   **Adaptive Noise Reduction:** Analyzes the beginning of the audio file to estimate the background noise profile and then subtracts this noise from the rest of the track. Useful for cleaning up vocals extracted by Demucs or other recordings with steady background hiss. The result is provided directly for download.
 *   **Loudness Normalization:** Measures the perceived loudness (using the LUFS standard) of the entire audio file and adjusts the volume so the overall loudness matches a target level (default is -23 LUFS). This helps make different tracks sound consistent in volume. The result is provided directly for download.
 
-## 📄 License
 
-This project is not yet licensed under the MIT License - see the [LICENSE](LICENSE) file or the [MIT License text](https://opensource.org/licenses/MIT) for details.
 
 ## 🙏 Acknowledgements
 
